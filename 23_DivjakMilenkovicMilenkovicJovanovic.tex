@@ -3,8 +3,19 @@
 \usepackage{fancyhdr}
 \usepackage{lipsum}
 \usepackage{graphicx}
+\graphicspath{ {./images/} }
 \usepackage{ulem}
 \usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=30mm,
+	right = 30mm,
+	top=20mm,
+}
 
 \title{BROJ $e$ I PRIMENA U FINANSIJAMA\\\large{Seminarski rad u okviru kursa}\\\large{Tehničko i naučno pisanje}\\ \large{Matematički fakultet}}
 
@@ -93,6 +104,129 @@ za sumu,$i$ kao imaginarnu jedinicu.
 Pokazao je da se najkraće rastojanje izmedju dve tačke na zakrivljenoj površi pretvara u duž ukoliko se ta površ projektuje na ravan.
 Medju manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teorije muzike u potpunosti zasnovan na matematičkim idejama, koji je napravio napisavši 1739. godine Tentamen novae theoriae musicae,a zatim i brojna druga dela.
 \newpage{}
+\section*{\underline{Osobine broja e}}
+	
+	
+	Broj e, koji još nazivamo i Ojlerov broj ili Neperova konstanta, je konstanta koja predstavlja osnovu prirodnog logaritma. Ovaj broj osim što je iracionalan i realan takođe je i trascedentan i njegova približna vrednost iznosi
+	
+	
+	\begingroup
+	\centering
+	\[ e\approx 2,71828...\]
+	\endgroup
+	\vspace{5mm}
+	
+	\begin{wrapfigure}{l}{0.25\textwidth}
+		\includegraphics[scale = 0.5]{image.png}
+		\caption{Slika 1}
+		\label{fig:wrapfig}
+	\end{wrapfigure}
+	On predstavlja prirodan rast tako da svoju primenu nalazi u bilo kakvom eksponencijalnom rastu bilo da je u pitanju populacija, novac ili nešto drugo. Ojler je broj e izračunao kao vrednost kojoj se približava broj
+	\newline
+	
+	\begingroup
+	\centering
+	
+	$( 1 + \frac{1}{n} )^n$
+	
+	\endgroup 
+	\vspace{5mm}
+	
+	kada se broj n povećava. Ovo će biti objašnjeno u tabeli. 
+	\vspace{3cm}
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+			\hline 
+			n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 100 & 1000 \\
+			\hline
+			\left( 1 + \frac{1}{n} )^n &   &   &   &   &   &   &   &   &   \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+			\hline 
+			n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 100 & 1000 \\
+			\hline
+			\left( 1 + \frac{1}{n} )^n\right & - & 2 & 2,25 & 2,3704 & 2,4414 & 2,4883 & 2,5216 & 2,7048 & 2,7169 \\
+			\hline
+		\end{tabular}
+	\end{center}
+\vspace{5mm}
+
+Što je veći broj n to smo bliži broju e. Pošto je ovo beskonačan niz, broj e se može predstaviti kao granična vrednost tog niza
+	\\
+
+	
+	\[\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} 	) \,^n\right\\\\\]
+\vspace{5mm}	
+	
+	Uradićemo primer  $\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} 	) \,^n\right\\\\$
+	
+	
+	
+	\[ \lim_{n\to\infty} ( \, 1 + \frac{1}{n} 	) \,^n\right =\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} ) \,^\frac{3n}{3}\right = (\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} ) \,^3n)^\frac{1}{3}\right = e^\frac{1}{3}
+	\]
+	
+	\newpage
+	
+	\begin{figure}[h]
+		
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=0.9\linewidth, height=4cm]{1.png} 
+			\caption{Slika 2}
+			\label{fig:subim1}
+		\end{subfigure}
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=0.9\linewidth, height=4cm]{2.png}
+			\caption{Slika 3}
+			\label{fig:subim2}
+		\end{subfigure}
+		\label{fig:image2}
+	\end{figure}
+	\vspace{5mm}
+	
+	Takodje, ovaj broj je moguće predstaviti i kao sumu beskonačnog niza
+	
+	\[ e= \sum_{n=0}^{\infty} \frac{1}{n!} = \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + ... \]
+	\vspace{5mm}
+	
+	Zbir prvih šest članova ovog niza iznosiće
+	
+	\[ 1 + 1 + \frac{1}{2} + \frac{1}{6} + \frac{1}{24} + \frac{1}{120} = 2,718055556 \]
+	\vspace{5mm}
+	
+	U nastavku biće predstavljen jedan zanimljiv primer vezan za broj e. Uzećemo broj 10 za početak. Podelićemo ga na dva jednaka dela tj.
+	
+	\[ 10 : 2 = 5 \]
+	\vspace{5mm}
+	
+	Nakon ovoga, ta dva dela ćemo pomnožiti
+	
+	\[ 5 * 5 = 25 \]
+	\vspace{5mm}
+	
+	Sad ćemo ponoviti postupak s tim što ćemo broj 10, umesto na dva, podeliti na 3 dela
+	
+	\[ 10 : 3 = 3\frac{1}{3} \]
+	\vspace{5mm}
+	
+	Množimo delove koje smo dobili
+	
+	\[  3\frac{1}{3} *  3\frac{1}{3} *  3\frac{1}{3} = 37,03... \]
+	\vspace{5mm}
+	
+	Isto radimo za četiri dela
+	
+	\[ 10 : 4 = 2,5 \]
+	
+	\[ 2,5^4 = 39,0625\]
+	\vspace{5mm} 
+	
+	Šta je poenta ovog računanja? Da bi proizvod jednakih delova nekog broja bio maksimalan, ti delovi moraju biti što bliži broju e.
 \begin{document}
 \pagestyle{fancy}
 \fancyhead{}
