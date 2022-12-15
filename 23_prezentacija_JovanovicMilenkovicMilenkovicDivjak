@@ -105,13 +105,13 @@
 \end{block}
 \end{frame}
 \begin{frame}
-\begin{alertblock}{O Leonardu Ojleru}
+\begin{block}{O Leonardu Ojleru}
     \begin{itemize}
         \item Rodjen u Bazelu 15. aprila 1707. godine
         \item Najveći doprinos u matematičkoj notaciji
         \item Pokušaj formulisanja teorije muzike zasnovane na matematici
     \end{itemize}
-\end{alertblock}
+\end{block}
 \vspace{5mm}
  \includegraphics[height = 4cm, width = 3cm]{lojlermodified.jpg}
   \includegraphics[height = 4cm, width = 3cm]{delo.png}
