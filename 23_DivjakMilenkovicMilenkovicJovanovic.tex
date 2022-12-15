@@ -100,10 +100,11 @@ Pokazao je da se najkraće rastojanje izmedju dve tačke na zakrivljenoj površi
 Među manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teorije muzike u potpunosti zasnovan na matematičkim idejama, koji je napravio napisavši 1739. godine "Tentamen novae theoriae musicae",a zatim i brojna druga dela.
 \newpage{}
 	
+	
 	\section*{\underline{Osobine broja e}}
 	
 	
-	Broj e, koji još nazivamo i Ojlerov broj ili Neperova konstanta, je konstanta koja predstavlja osnovu prirodnog logaritma. Ovaj broj osim što je iracionalan i realan takođe je i transcedentan i njegova približna vrednost iznosi
+	Broj e, koji još nazivamo i Ojlerov broj ili Neperova konstanta, je konstanta koja predstavlja osnovu prirodnog logaritma. Ovaj broj osim što je iracionalan i realan takodje je i transcedentan i njegova približna vrednost iznosi
 	
 	
 	\begingroup
@@ -113,7 +114,7 @@ Među manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teori
 	\vspace{5mm}
 	
 	\begin{wrapfigure}{l}{0.25\textwidth}
-		\includegraphics[scale = 0.5]{image.png}
+		\includegraphics[scale = 0.5]{1.png}
 		\caption{Broj e}
 		\label{fig:br}
 	\end{wrapfigure}
@@ -138,11 +139,10 @@ Među manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teori
 			\hline 
 			n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 100 & 1000 \\
 			\hline
-			\left( 1 + \frac{1}{n} )^n &   &   &   &   &   &   &   &   &   \\
+			$( 1 + \frac{1}{n} )^n$ &   &   &   &   &   &   &   &   &   \\
 			\hline
-   
+
 		\end{tabular}
-            \caption{Tabela 1}
           \label{tab:tabela}
 	\end{center}
 	
@@ -152,33 +152,40 @@ Među manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teori
 			\hline 
 			n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 100 & 1000 \\
 			\hline
-			\left( 1 + \frac{1}{n} )^n\right & - & 2 & 2,25 & 2,3704 & 2,4414 & 2,4883 & 2,5216 & 2,7048 & 2,7169 \\
+			$( 1 + \frac{1}{n} )^n$ & - & 2 & 2,25 & 2,3704 & 2,4414 & 2,4883 & 2,5216 & 2,7048 & 2,7169 \\
 			\hline
    
 		\end{tabular}
 	\end{center}
 \vspace{5mm}
 
+\begin{align}
+    
 Što je veći broj n to smo bliži broju e (\ref{fig:vrednost}). Pošto je ovo beskonačan niz, broj e se može predstaviti kao granična vrednost (\ref{fig:niz}) tog niza 
-	\\
 
+ \end{align}
+\begin{center}
 	
-	\[\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} 	) \,^n\right\\\\\]
-\vspace{5mm}	
+	$\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} 	) \,^n$
+
+ \end{center}
+\vspace{10mm}	
 	
-	Uradićemo primer  $\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} 	) \,^n\right\\\\$
+	Uradićemo primer  $\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} 	) \,^n$
+\vspace{10mm}	
+	\begin{center}
+	    
 	
+	$\lim_{n\to\infty} ( \, 1 + \frac{1}{n} 	) \,^n =\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} ) \,^\frac{3n}{3}= (\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} ) \,^3n)^\frac{1}{3}= e^\frac{1}{3}$
+
+\end{center}	
 	
-	
-	\[ \lim_{n\to\infty} ( \, 1 + \frac{1}{n} 	) \,^n\right =\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} ) \,^\frac{3n}{3}\right = (\lim_{n\to\infty} ( \, 1 + \frac{1}{3n} ) \,^3n)^\frac{1}{3}\right = e^\frac{1}{3}
-	\]
-	
-	\newpage
+
 	
 	\begin{figure}[h]
 		
 		\begin{subfigure}{0.5\textwidth}
-			\includegraphics[width=0.9\linewidth, height=4cm]{1.png} 
+			\includegraphics[width=0.9\linewidth, height=4cm]{image.png} 
 			\caption{Granična vrendost datog niza}
 			\label{fig:vrednost}
 		\end{subfigure}
@@ -189,10 +196,11 @@ Među manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teori
 		\end{subfigure}
 		\label{fig:image2}
 	\end{figure}
-	\vspace{5mm}
+	\vspace{10mm}
 	
 	Takodje, ovaj broj je moguće predstaviti i kao sumu beskonačnog niza
-	
+
+ \vspace{10mm}
 	\[ e= \sum_{n=0}^{\infty} \frac{1}{n!} = \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + ... \]
 	\vspace{5mm}
 	
@@ -229,7 +237,6 @@ Među manje poznatim Ojlerovim doprinosima nalazi se pokušaj formulisanja teori
 	\vspace{5mm} 
 	
 	Šta je poenta ovog računanja? Da bi proizvod jednakih delova nekog broja bio maksimalan, ti delovi moraju biti što bliži broju e.
-\end{document}
 	\section*{\uline{Ojlerov indetitet}}
 \paragraph{\normalfont{Osim što se može prestaviti gore navedenim izrazima, broj $e$ srećemo i u Ojlerovom indetitetu. To je ustvari naziv za formulu: $$e^{i\phi}=\cos\phi+\sin\phi$$
 koja predstavlja vezu između trigonometrijskih funkcija i kompleksnih brojeva. Iako je prvobitna pretpostavka bila $\in \mathbb{R}$, jednačina važi i za $\phi\in\mathbb{C}$.}}
