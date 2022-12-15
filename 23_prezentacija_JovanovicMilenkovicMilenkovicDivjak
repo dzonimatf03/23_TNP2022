@@ -1,1 +1,124 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{MnSymbol}
+\usepackage{stmaryrd}
+\usepackage{colortbl}
+\usepackage{caption}
+\usepackage{comment}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{soul}
+\usepackage[normalem]{ulem}
+
+
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{pgf}
+\usepackage{etex}
+\usepackage{tikz,pgfplots}
+
+
+\usetheme{Antibes}
+%\usetheme{Madrid}
+%\usecolortheme[named=Maroon]{structure}
+\usecolortheme{dolphin}
+\usefonttheme{professionalfonts}
+\useoutertheme{infolines}
+\useinnertheme{circles}
+
+\newtheorem*{bem}{Bemerkung}
+
+\usepackage{tikz}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=2mm,
+  belowskip=2mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=2
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{Broj e i primena u finansijama}
+\author[Jovanović, Milenković, Milenković, Divjak]{Nikola Jovanović \\ Nikolina Milenković \\  Kristina Milenković \\ Anastasija Divjak}
+\institute{Univerzitet u Beogradu, Matematički fakultet}
+\logo{\includegraphics[height=2cm]{logo matf.png}}
+\date{Beograd, Decembar 2022.}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Rezime}
+\begin{itemize}
+ \item Otkriven 1618., nije mu pridavan veliki značaj
+ \item Znatno kasnije švajcarski naučnik Leonard Ojler
+ \item e = 2,71828..., osnova prirodnog logaritma
+ \item Prvobitni problem vezan za broj e - finansije
+\end{itemize}
+\end{frame}
+
+\section{Uvod}
+\begin{frame}{Uvod}
+\begin{block}{Istorija broja e}
+    \begin{itemize}
+        \item Prvo pojavljivanje - 1618. god (logaritamske tablice)
+        \item 17. vek - Danijel Bernuli, ispitivanje u okviru bankarstva
+        \item Pedesetak godina kasnije broj e napokon izračunat
+    \end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\begin{alertblock}{O Leonardu Ojleru}
+    \begin{itemize}
+        \item Rodjen u Bazelu 15. aprila 1707. godine
+        \item Najveći doprinos u matematičkoj notaciji
+        \item Pokušaj formulisanja teorije muzike zasnovane na matematici
+    \end{itemize}
+\end{alertblock}
+\vspace{5mm}
+ \includegraphics[height = 4cm, width = 3cm]{lojlermodified.jpg}
+  \includegraphics[height = 4cm, width = 3cm]{delo.png}
+  \includegraphics[height = 3cm, width = 4cm]{image.png}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
 
