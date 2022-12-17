@@ -119,5 +119,38 @@
 
 \end{frame}
 
+        \subsection{O Bernuliju}
+        
+		\begin{frame}{O Bernuliju}
+		
+        \begin{itemize}
+        \item Sticao je znanja iz matematike i
+prirodnih nauka, takodje je bio i predavač\\
+        \end{itemize}
+        \begin{itemize}
+         \item Bio je prijatelj Leonarda Ojlera\\
+        \end{itemize}
+        \begin{itemize}
+         \item Bavio se raznim matematičkim problemima\\
+        \end{itemize}
+        \begin{center}
+        \includegraphics[height=4.cm]{bernuli.jpg}
+        \end{center}
+		\end{frame}
+        
+        %\Bild Anfrage Über Sparql Interface
+		\begin{frame}{Primena u finansijama i zaključak}
+		Pretpostavimo da u banku ulažemo sumu novca x:\\
+        \begin{itemize}
+        \item  100 posto kamata -- dobijamo $2*x$ sumu novca \\
+        \item  Sledi sledeća formula $( 1 + \frac{1}{2} )^2 * x$ , za godinu dana bi bilo  $( 1 + \frac{1}{365} )^{365} * x$ \\\\
+        
+        \end{itemize}
+           \begin{equation}\lim_{n \rightarrow \infty} (1+\frac{1}{n})^n=e \end{equation}
+           
+        \begin{center}
+            \includegraphics[height=3.cm]{SlikaE.png}
+        \end{center}    
+		\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
